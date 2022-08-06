@@ -7,6 +7,6 @@ for (let i = 1; i <= inputNumber; i++){
     if(i%5 == 0 && i%3 == 0) {console.log('FizzBuzz \r');}
     else if (i%5 == 0) {console.log('Buzz \r');}      
     else if (i%3 == 0) {console.log('Fizz \r');} 
-    else{console.log(i);}
+    else{console.log(i+1);}
 }
 
